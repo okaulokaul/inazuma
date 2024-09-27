@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Viagem no Espaço</title>
+</head>
+<body>
+    
+<main>
+<div class="passo ativo" id="passo-0">
+    <img src="inazuma.png" alt="">
+    <p>Enquanto caminhava pela cidade de inazuma, voce se depara com um comerciante pedindo ajuda para carregar seu carrinho</p>
+    <button class="btn-proximo" data-proximo="1">Ajudar</button>
+    <button class="btn-proximo" data-proximo="6">Ignorar</button>
+</div>
+<div class="passo" id="passo-1">
+    <img src="carta.png" alt="">
+    <p>Você decide ajudar o comerciante, ele te agradece e te entrega uma carta</p>
+    <button class="btn-proximo" data-proximo="2">Olhar a carta</button>
+</div>
+<div class="passo" id="passo-2">
+    <img src="mapa.png" alt="">
+    <p>Você abre a carta e se depara com uma localização, o que voce faz?.</p>
+    <button class="btn-proximo" data-proximo="3">Ir para o local indicado</button>
+    <button class="btn-proximo" data-proximo="6">Ignorar e continuar sua caminhada</button>
+</div>
+<div class="passo" id="passo-3">
+    <img src="batalha.png" alt="">
+    <p>Você segue para a direçao indicada no mapa, chegando la, se depara com diversos inimigos!</p>
+    <button class="btn-proximo" data-proximo="4">Batalhar</button>
+    <button class="btn-proximo" data-proximo="10">Fugir</button>
+</div>
+<div class="passo" id="passo-4">
+    <p>Ao derrotar os inimigos, um deles deixa cair um objeto no chão</p>
+    <button class="btn-proximo" data-proximo="5">Investigar</button>
+</div>
+<div class="passo" id="passo-5">
+    <img src="orbe.png" alt="">
+    <p>Voce encontra um Orbe Abissal. Quais segredos ele guarda para sua próxima aventura??</p>
+</div>
+<div class="passo" id="passo-6">
+    <p>Voce continua sua caminhada, para onde irá agora?</p>
+    <button class="btn-proximo" data-proximo="7">Comer</button>
+    <button class="btn-proximo" data-proximo="9">Descansar</button>
+</div>
+<div class="passo" id="passo-7">
+    <img src="comer.png" alt="">
+    <p>O que escolher para comer?</p>
+    <button class="btn-proximo" data-proximo="8">Leite de Dango</button>
+    <button class="btn-proximo" data-proximo="8">Frango Assado com Mel</button>
+</div>
+<div class="passo" id="passo-8">
+    <p>Apos comer, você decide que esta na hora de voltar para casa...</p>
+</div>
+<div class="passo" id="passo-9">
+    <img src="descanso.png" alt="">
+    <p>Voce segue em direção ao pavilhao de escadas, observa o tempo e percebe que está ficando tarde, é melhor ir para casa...</p>
+</div>
+<div class="passo" id="passo-10">
+    <p>Você foge, com medo de se machucar, volta para a cidade e retorna para casa...</p>
+</div>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
